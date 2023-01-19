@@ -14,17 +14,17 @@ def count_users_with_age(data:list, age:int) -> int:
             count += 1
     return count
 
-data = [
-  {
-    'name': 'John', 
-    'age': 35
-  },
-  {
-    'name':'Mary', 
-    'age': 20
-  }
-  ]
+# data = [
+#   {
+#     'name': 'John', 
+#     'age': 35
+#   },
+#   {
+#     'name':'Mary', 
+#     'age': 20
+#   }
+#   ]
 
-age = 38
+# age = 38
 
-print(count_users_with_age(data, age))
+# print(count_users_with_age(data, age))
