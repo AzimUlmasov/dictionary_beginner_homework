@@ -8,4 +8,10 @@ def count_jobs(data:list, job:str) -> int:
     Returns:
         int: The number of users with the given job
     """
-    return 
+    count = 0
+    for human in data:
+        if human['job'] == job:
+            count += 1
+    return count
+
+
