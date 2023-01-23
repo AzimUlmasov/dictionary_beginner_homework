@@ -12,17 +12,3 @@ def get_user_names_with_age(data:list, age:int) -> list:
     for i in data:
         if age == i["age"]:
             return i["name"]
-
-data = [
-  {
-    'name': 'John', 
-    'age': 27
-  }, 
-  {
-    'name': 'Mary', 
-    'age': 42
-  }
-]
-age = 27
-
-print(get_user_names_with_age(data, age))
