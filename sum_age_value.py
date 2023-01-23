@@ -10,15 +10,3 @@ def sum_age_values(data:list) -> int:
     for i in data:
         _age += i['age']
     return _age
-data = [
-  {
-    'name': 'John', 
-    'age': 27
-  }, 
-  {
-    'name': 'Mary', 
-    'age': 42
-  }
-]
-
-print(sum_age_values(data))
