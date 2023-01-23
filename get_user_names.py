@@ -10,32 +10,3 @@ def get_user_names(data:list, country:str) -> list:
     """
     return[user['name'] for user in data if user['country'] == country]
  
-data = [
-  {
-    'name': 'John', 
-    'country': 'USA'
-  }, 
-  {
-    'name': 'Mary', 
-    'country': 'UK'
-  },
-  {
-    'name': 'Henry', 
-    'country': 'UK'
-  },
-  {
-    'name': 'Sam', 
-    'country': 'MEX'
-  },
-  {
-    'name': 'Kevin', 
-    'country': 'RUS'
-  },
-  {
-    'name': 'Dustin', 
-    'country': 'GER'
-  }
-]
-country = 'UK'
-
-print(get_user_names(data, country))
