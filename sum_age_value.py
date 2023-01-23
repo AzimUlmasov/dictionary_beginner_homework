@@ -6,4 +6,19 @@ def sum_age_values(data:list) -> int:
     Returns:
         int: The sum of all age values in the dictionary
     """
-    return 
+    _age = 0
+    for i in data:
+        _age += i['age']
+    return _age
+data = [
+  {
+    'name': 'John', 
+    'age': 27
+  }, 
+  {
+    'name': 'Mary', 
+    'age': 42
+  }
+]
+
+print(sum_age_values(data))
